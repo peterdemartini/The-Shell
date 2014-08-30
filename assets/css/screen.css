@@ -387,7 +387,6 @@ button, input, select, textarea {
     display: block;
     margin: 0 auto;
     border: 5px solid #bf6165;
-
 }
 
 #blog-logo img {
@@ -396,21 +395,6 @@ button, input, select, textarea {
     width: auto;
     line-height: 0;
     border-radius: 50%;
-
-}
-
-.about-me {
-    padding: 1px;
-    font-size: 0.85em;
-    border: 1px solid #424a5a;
-    background: #242937;
-    border-radius: 2px;
-    margin: 25px;
-}
-
-.about-me p {
-    margin: 15px 5px;
-    padding: 0;
 }
 
 #back {
@@ -430,11 +414,20 @@ button, input, select, textarea {
 }
 
 .blog-description {
-    margin: 0;
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
     letter-spacing: 0;
+}
+
+/* About Me */
+.about-me {
+    padding: 2em;
+    font-size: 0.85em;
+    border: 1px solid #424a5a;
+    background: #242937;
+    border-radius: 2px;
+    margin: 2em;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
