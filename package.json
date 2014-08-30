@@ -1,0 +1,19 @@
+{
+  "name": "The-Shell",
+  "version": "0.0.0",
+  "description": "Simple theme for [Ghost](http://github.com/tryghost/ghost/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peterdemartini/The-Shell.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterdemartini/The-Shell/issues"
+  },
+  "homepage": "https://github.com/peterdemartini/The-Shell"
+}
