@@ -1,6 +1,6 @@
 {
   "name": "The-Shell",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Simple theme for [Ghost](http://github.com/tryghost/ghost/).",
   "main": "index.js",
   "scripts": {
