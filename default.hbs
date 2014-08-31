@@ -39,6 +39,14 @@
 </head>
 <body class="{{body_class}}">
 
+    <header class="site-header">
+        <ul class="site-nav">
+            {{#foreach pages}}
+                <li><a href="{{ url }}" title="{{ title }}">{{ title }}</a></li>
+            {{/foreach}}
+        </ul>
+    </header>
+
     {{! Everything else gets inserted here }}
     {{{body}}}
 

@@ -378,6 +378,33 @@ button, input, select, textarea {
     background-size: cover;
 }
 
+/* Site Nav */
+
+.site-header {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.site-nav {
+    position: relative;
+    display: table;
+    padding: 5px;
+    max-width: 960px;
+}
+
+.site-nav li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.site-nav li a {
+    width: 100%;
+    height: 100%;
+}
+
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 
 #blog-logo {
