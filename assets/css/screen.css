@@ -371,6 +371,8 @@ button, input, select, textarea {
     display: table;
     width: 100%;
     height: 60%;
+    padding-top: 1em;
+    margin-top: 1em;
     margin-bottom: 5rem;
     text-align: center;
     color: #a0add5;
@@ -381,10 +383,10 @@ button, input, select, textarea {
 /* Site Nav */
 
 .site-header {
-    position: absolute;
+    position: relative;
     top: 0; left: 0;
     width: 100%;
-    height: 50px;
+    height: 1.5em;
 }
 
 .site-nav {
@@ -392,17 +394,20 @@ button, input, select, textarea {
     display: table;
     padding: 5px;
     max-width: 960px;
+    margin: 0 auto;
 }
 
 .site-nav li {
     display: inline-block;
     width: auto;
     height: auto;
+    padding: 0 10px;
 }
 
 .site-nav li a {
     width: 100%;
     height: 100%;
+    font-size: 0.7em;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */

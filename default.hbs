@@ -5,7 +5,6 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <script>
-    // UNCOMMENT AND USE YOUR VARIABLES FOR DISQUS AND GOOGLE ANALYTICS
      var d_id  = 'peterdemartini',
          g_id  = 'UA-28352529-1',
          g_url = 'peterdemartini.com';
@@ -41,9 +40,10 @@
 
     <header class="site-header">
         <ul class="site-nav">
-            {{#foreach pages}}
-                <li><a href="{{ url }}" title="{{ title }}">{{ title }}</a></li>
-            {{/foreach}}
+            <li><a href="/" title="Home">Home</a></li>
+            <li><a href="/about" title="Page: ">About</a></li>
+            <li><a href="https://gitto.io/r/peterdemartini" title="Page: Resume on Gitto">Resume</a></li>
+            <li><a href="/contact" title="Page: Contact">Contact</a></li>
         </ul>
     </header>
 
